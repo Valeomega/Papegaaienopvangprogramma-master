@@ -7,23 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using papegaaiencostumclasses;
 
 namespace Papegaaienopvangprogramma
 {
-    public partial class Hoofdsoorttoevoegen : Form
+    public partial class Indpendantondersoort : Form
     {
-       static REPO repoload = new REPO();
-        public Hoofdsoorttoevoegen(REPO repo)
+        public Indpendantondersoort()
         {
             InitializeComponent();
-            repoload = repo;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Ondersoortinput form = new Ondersoortinput(repoload);
-            form.Show();
+            comb
         }
     }
 }

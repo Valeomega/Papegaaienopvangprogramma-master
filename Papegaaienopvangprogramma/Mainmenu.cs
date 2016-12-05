@@ -52,6 +52,36 @@ namespace Papegaaienopvangprogramma
 
         private void hoofdSoortToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Hoofdsoorttoevoegen form = new Hoofdsoorttoevoegen(repoload);
+            form.Show();
+
+        }
+
+        private void ondersoortToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Indpendantondersoort form = new Indpendantondersoort(repoload);
+            form.Show();
+        }
+
+
+
+        private void soortInfoAanpasseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vogelsoorteninfoaanpassen form = new Vogelsoorteninfoaanpassen(repoload);
+        }
+
+        private void toevoegenToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            VoedingToevoegen form = new VoedingToevoegen(repoload);
+        }
+
+        private void aanpassenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void afdrukkenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
         }
     }
